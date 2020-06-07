@@ -872,7 +872,7 @@
 // document.write("String: " + join_array)
 
 
-//                                                       Q # 13
+
 
 
 
