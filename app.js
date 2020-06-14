@@ -645,6 +645,24 @@
 
 
 //                                                     Chapter # 12-13
+//                                                          Q # 1
+
+
+// var ch = prompt("Enter a Number or a Character")
+// var check = ch.charCodeAt(0)
+
+// if (check>=65 && check<=90) {
+//     alert("It is a Uppercase Letter")
+// }
+// else if (check>=97 && check<=122) {
+//     alert("It is a Lowercase Letter")
+// }
+// else {
+//     alert("It is a Number")
+// }
+
+
+
 //                                                          Q # 2
 
 
@@ -874,7 +892,211 @@
 
 
 
+//                                                       Q # 13
 
+
+
+
+// var devices= [];
+// var count = devices.push("Keyboard", "Moniter", "Mouse")
+// document.write("Devices: " + "<br>")
+// document.write(devices + "<br>" + "<br>")
+
+// document.write("Out: " + "<br>")
+// var item = devices.shift()
+// document.write(item + "<br>")
+
+// document.write("Out: " + "<br>")
+// var item = devices.shift()
+// document.write(item + "<br>")
+
+// document.write("Out: " + "<br>")
+// var item = devices.shift()
+// document.write(item + "<br>")
+
+
+
+//                                                       Q # 14
+
+
+
+// var devices= [];
+// var count = devices.push("Keyboard", "Moniter", "Mouse")
+// document.write("Devices: " + "<br>")
+// document.write(devices + "<br>" + "<br>")
+
+// document.write("Out: " + "<br>")
+// var item = devices.pop()
+// document.write(item + "<br>")
+
+// document.write("Out: " + "<br>")
+// var item = devices.pop()
+// document.write(item + "<br>")
+
+// document.write("Out: " + "<br>")
+// var item = devices.pop()
+// document.write(item + "<br>")
+
+
+
+//                   --------------------------------- END ------------------------------------------ 
+
+
+//                                               Chapter # 17-20
+//                                                   Q # 1 & 2
+//                                                  (Incomplete)
+
+
+// for (let a = 0; a <=2; a++) {
+//     for (let i = a; i <=3  ; i++) {
+//         document.write(i + " ")
+//     } 
+//     document.write("<br>")   
+// }
+
+
+//                                                     Q # 3
+
+
+
+// for (let a = 1; a <=10; a++) {
+//     document.write(a + "<br>") 
+// }
+
+
+
+//                                                     Q # 4
+
+
+// var tbnum = +prompt("Enter a number to show its multiplication Table")
+// var tblength = +prompt("Enter Length of Multiplication Table")
+
+// document.write("Multiplication table of " + tbnum + "<br>")
+// document.write("Length " + tblength + "<br>")
+
+// for (let a = 1; a<=tblength; a++) {
+//     document.write(tbnum + " x " + a + " = " + tbnum * a + "<br>")
+// }
+
+
+//                                                     Q # 5
+
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"]
+
+// for (let a = 0; a< fruits.length; a++) {
+//   document.write("Element at index " + [a] + " is " + fruits[a] + "<br>")
+//     }
+
+
+//                                                     Q # 6
+//                                                     part(a)
+
+// document.write("<h3>Counting: </h3>")
+// for (let count = 1; count <=15; count++) {
+//     document.write(count + ",")
+// }
+
+
+// //                                                    part(b)
+
+// document.write("<h3>Reverse Counting: </h3>")
+// for (let a = 10; a >=1; a--) {
+//     document.write(a + ",")
+// }
+
+
+// //                                                    part(c)
+
+
+// document.write("<h3>Even: </h3>")
+// for (let i = 0; i <= 20; i=i+2) {
+//     document.write(i + ",")
+// }
+
+// //                                                    part(d)
+
+
+// document.write("<h3>Odd: </h3>")
+// for (let o = 0; o < 20; o++) {
+//     if (o%2== !0) {
+//         document.write(o + ",")
+//     }
+// }
+
+
+// //                                                    part(e)
+
+
+// document.write("<h3>Series: </h3>")
+// for (let s = 2; s <=20 ; s=s+2) {
+//     document.write(s + "k ,")
+// }
+
+
+//                                                       Q # 7
+
+
+// A = ["cake", "apple pie", "cookie", "chips", "patties"]
+
+// var search = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?")
+// var found = false;
+
+// for (var i = 0; i < search.length; i++) { 
+//     if(search===A[i]) {
+//         found = true;
+//         break;
+//     }
+// }
+// if (found == true) {
+//     document.write(search + " is avialable at index " + i + " in our Bakkery <br>")
+// }else {
+//     document.write("We are sorry. " + search + " is not available in our Bakkery")
+// }
+
+
+
+//                                                       Q # 8
+
+
+// A = [24, 53, 78, 91, 12]
+// var largestnum = 0
+// document.write("Array items are: " + A + "<br>")
+
+// for (var a = 0; a < A.length; a++) {
+//     for (var b = a;  b <A.length ; b++ ) {
+//         if (A[b] > largestnum) {
+//             largestnum= A[b]
+//         }
+//     }
+// }
+// document.write("The Largest Number is " + largestnum)
+
+
+//                                                       Q # 9
+
+// A = [24, 53, 78, 91, 12]
+// var smallest = A[0]
+// document.write("Array items are: " + A + "<br>")
+
+// for (i = 0; i < A.length; i++) {
+//     if (A[i] < smallest) {
+//         smallest = A[i];
+//     }
+// }
+// document.write("The Smallest Number is " + smallest)
+
+
+
+//                                                       Q # 10
+
+
+
+// for (let i = 1; i <= 100; i++) {
+//    if (i % 5 === 0) {
+//        document.write(i + " ")
+//    }
+// }
 
 
 
