@@ -410,13 +410,19 @@
 // }
 
 
-//                                                                  Q # 6 (Remaining)
+//                                                         Q # 6 (Remaining)
 
 
 
 // var subject1 = prompt("Enter First Subject")
+// var obtained_marks = +prompt("Enter " + subject1 +  " Subject marks")
 // var subject2 = prompt("Enter Second Subject")
+// var obtained_marks2 = +prompt("Enter " + subject2 +  " Subject marks")
 // var subject3 = prompt("Enter Third Subject")
+// var obtained_marks3 = +prompt("Enter " + subject3 +  " Subject marks")
+// var Total_marks = 100;
+
+
 
 
 
